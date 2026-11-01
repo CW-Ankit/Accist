@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { OrganizationSwitcher } from '@neondatabase/auth-ui';
-import { UserProfileMenu } from './user-profile-menu';
+import { UserProfileMenu } from './auth/user-profile-menu';
 
 interface SettingsShellProps {
   title: string;

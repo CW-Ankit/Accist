@@ -1,6 +1,6 @@
 import { auth } from '@/lib/auth/server';
 import { redirect } from 'next/navigation';
-import { OrganizationSettingsView } from '@/components/organization-settings-view';
+import { OrganizationSettingsView } from '@/components/org/organization-settings-view';
 
 export const dynamic = 'force-dynamic';
 

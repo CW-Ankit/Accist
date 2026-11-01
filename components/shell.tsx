@@ -2,7 +2,7 @@
 
 import React, { useMemo } from 'react';
 import { OrganizationSwitcher } from '@neondatabase/auth-ui';
-import { UserProfileMenu } from './user-profile-menu';
+import { UserProfileMenu } from './auth/user-profile-menu';
 import { InviteModal } from './invite-modal';
 import { Dashboard } from './dashboard';
 import { LeftRail } from './canvas/left-rail';
@@ -56,9 +56,6 @@ export function Shell({
           <div className="flex items-center gap-1.5 font-mono text-xs font-semibold tracking-tight">
             <span className="text-accent text-sm leading-none">◈</span>
             <span className="text-foreground tracking-tight">cartograph</span>
-            <span className="rounded-[3px] border border-border bg-surface-raised px-1 py-0.2 text-[9px] font-mono text-foreground-muted">
-              v0.1.0
-            </span>
           </div>
 
           <span className="text-border text-xs">/</span>

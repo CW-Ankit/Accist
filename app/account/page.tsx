@@ -1,6 +1,6 @@
 import { auth } from '@/lib/auth/server';
 import { redirect } from 'next/navigation';
-import { AccountSettingsView } from '@/components/account-settings-view';
+import { AccountSettingsView } from '@/components/auth/account-settings-view';
 
 export const dynamic = 'force-dynamic';
 
